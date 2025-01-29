@@ -34,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 13,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -60,7 +60,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				3
 			]
 		}
 	],
@@ -108,14 +109,16 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				3
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				2
+				2,
+				4
 			]
 		}
 	],
@@ -136,6 +139,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "include/PiApproximationAlgorithm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "MonteCarloApproximation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "MonteCarloApproximation.h",
 			"sourceGroupIndex" : 1
 		}
 	],
