@@ -61,11 +61,11 @@ build CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\piApproximation.dir
   OBJECT_FILE_DIR = CMakeFiles\piApproximation.dir\src
 
-build CMakeFiles/piApproximation.dir/MonteCarloApproximation.cpp.obj: CXX_COMPILER__piApproximation_unscanned_Debug C$:/Users/scott/Documents/annet/piApproximation/MonteCarloApproximation.cpp || cmake_object_order_depends_target_piApproximation
-  DEP_FILE = CMakeFiles\piApproximation.dir\MonteCarloApproximation.cpp.obj.d
+build CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj: CXX_COMPILER__piApproximation_unscanned_Debug C$:/Users/scott/Documents/annet/piApproximation/src/MonteCarloApproximation.cpp || cmake_object_order_depends_target_piApproximation
+  DEP_FILE = CMakeFiles\piApproximation.dir\src\MonteCarloApproximation.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\piApproximation.dir
-  OBJECT_FILE_DIR = CMakeFiles\piApproximation.dir
+  OBJECT_FILE_DIR = CMakeFiles\piApproximation.dir\src
 
 
 # =============================================================================
@@ -75,7 +75,7 @@ build CMakeFiles/piApproximation.dir/MonteCarloApproximation.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable piApproximation.exe
 
-build piApproximation.exe: CXX_EXECUTABLE_LINKER__piApproximation_Debug CMakeFiles/piApproximation.dir/main.cpp.obj CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj CMakeFiles/piApproximation.dir/MonteCarloApproximation.cpp.obj
+build piApproximation.exe: CXX_EXECUTABLE_LINKER__piApproximation_Debug CMakeFiles/piApproximation.dir/main.cpp.obj CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lgmp  -lgmpxx  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\piApproximation.dir

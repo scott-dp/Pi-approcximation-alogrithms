@@ -1,0 +1,5 @@
+# ninja log v5
+30	536	7598657448263437	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	b908c2486c2b8ec
+41	834	7598657451240569	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
+6	838	7598657451284575	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
+839	1610	7598657458847974	piApproximation.exe	98e1a31334235f70
