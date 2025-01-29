@@ -1,0 +1,16 @@
+//
+// Created by scott on 29.01.2025.
+//
+#include <gmp.h>
+
+#ifndef PIAPPROXIMATION_PIAPPROXIMATIONALGORITHM_H
+#define PIAPPROXIMATION_PIAPPROXIMATIONALGORITHM_H
+
+
+class PiApproximationAlgorithm {
+public:
+
+};
+
+
+#endif //PIAPPROXIMATION_PIAPPROXIMATIONALGORITHM_H
