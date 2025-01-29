@@ -2,9 +2,17 @@
 // Created by scott on 29.01.2025.
 //
 #include <gmp.h>
+#include <cstdlib>
+#include <iostream>
 #include "../include/PiApproximationAlgorithm.h"
 
+using namespace std;
+
 PiApproximationAlgorithm::PiApproximationAlgorithm(int amountOfBitsPrecision) {
+    if (amountOfBitsPrecision < 1) {
+        cout << "amount of bit precision cant be 0 or less" << endl;
+        exit(0);
+    }
     mpf_set_default_prec(amountOfBitsPrecision); //Set precision to given amount of bits
     mpf_init(piApproximated);
     mpf_init(piCorrect);
