@@ -9,7 +9,11 @@
 
 class PiApproximationAlgorithm {
 public:
-
+    explicit PiApproximationAlgorithm(int amountOfBitsPrecision);
+    ~PiApproximationAlgorithm();
+private:
+    mpf_t piCorrect{};
+    mpf_t piApproximated{};
 };
 
 

@@ -8,6 +8,8 @@ link_directories(/msys64/mingw64/lib)
 
 add_executable(piApproximation main.cpp
         src/PiApproximationAlgorithm.cpp
-        include/PiApproximationAlgorithm.h)
+        include/PiApproximationAlgorithm.h
+        src/MonteCarloApproximation.cpp
+        include/MonteCarloApproximation.h)
 
 target_link_libraries(piApproximation gmp gmpxx)
