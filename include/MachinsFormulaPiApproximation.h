@@ -10,6 +10,8 @@
 class MachinsFormulaPiApproximation: public PiApproximationAlgorithm {
 public:
     explicit MachinsFormulaPiApproximation(int amountOfBitsPrecision);
+    void calculate(int numIterations);
+    mpf_t* arctanApproximation(mpf_t theta, int numIterations);
 };
 
 

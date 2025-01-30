@@ -14,6 +14,7 @@ MonteCarloApproximation::MonteCarloApproximation(int amountOfBitsPrecision, int 
     if (numThreads < 1 || numIterations < 1) {
         throw invalid_argument("number of threads and iterations cant be less than 1");
     }
+    //TODO change numterations and threads as calculate params
     this->numThreads = numThreads;
     this->numIterations = numIterations;
 }
