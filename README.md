@@ -5,3 +5,5 @@ For running on unix based system gmp.h will be available without any action.
 
 Monte carlo algorithm:
 ![image](https://github.com/user-attachments/assets/c9b02bde-339f-42e2-9f47-209e31c25f9b)
+Machins formula :
+![image](https://github.com/user-attachments/assets/17842720-39b5-4188-ae9e-e0121cbe2cd7)
