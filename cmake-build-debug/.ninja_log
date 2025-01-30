@@ -1,19 +1,5 @@
 # ninja log v5
-30	536	7598657448263437	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	b908c2486c2b8ec
-41	834	7598657451240569	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
-6	838	7598657451284575	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-839	1610	7598657458847974	piApproximation.exe	98e1a31334235f70
-71	1207	7598659754159584	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-1209	1586	7598659757891819	piApproximation.exe	98e1a31334235f70
-51	867	7598659914319691	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-868	1247	7598659917867172	piApproximation.exe	98e1a31334235f70
-57	1050	7598661847346314	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-1052	1415	7598661850870565	piApproximation.exe	98e1a31334235f70
-8	457	7598662105120084	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-458	576	7598662106240758	piApproximation.exe	98e1a31334235f70
-31	413	7598677973966172	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	b908c2486c2b8ec
-20	516	7598677975000904	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-37	754	7598677977386562	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
-754	899	7598677978758764	piApproximation.exe	98e1a31334235f70
-23	630	7598678660893657	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
-631	763	7598678662163162	piApproximation.exe	98e1a31334235f70
+48	460	7598681375702575	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	b908c2486c2b8ec
+6	618	7598688941549133	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
+17	489	7598689051785107	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
+490	611	7598689052941064	piApproximation.exe	98e1a31334235f70

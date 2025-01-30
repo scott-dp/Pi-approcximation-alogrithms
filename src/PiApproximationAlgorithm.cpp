@@ -10,8 +10,7 @@ using namespace std;
 
 PiApproximationAlgorithm::PiApproximationAlgorithm(int amountOfBitsPrecision) {
     if (amountOfBitsPrecision < 1) {
-        cout << "amount of bit precision cant be 0 or less" << endl;
-        exit(0);
+        throw invalid_argument("amount of bit precision cant be 0 or less");
     }
     mpf_set_default_prec(amountOfBitsPrecision); //Set precision to given amount of bits
     mpf_init(piApproximated);
