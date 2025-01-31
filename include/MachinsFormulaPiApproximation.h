@@ -11,7 +11,7 @@ class MachinsFormulaPiApproximation: public PiApproximationAlgorithm {
 public:
     explicit MachinsFormulaPiApproximation(int amountOfBitsPrecision);
     void calculate(int numIterations);
-    mpf_t* arctanApproximation(mpf_t theta, int numIterations);
+    void eulersArctanApproximation(mpf_t &x, int numIterations, mpf_t &result);
 };
 
 

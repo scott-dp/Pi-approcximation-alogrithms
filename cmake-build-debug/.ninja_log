@@ -1,5 +1,19 @@
 # ninja log v5
-48	460	7598681375702575	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	b908c2486c2b8ec
-6	618	7598688941549133	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
-17	489	7598689051785107	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
-490	611	7598689052941064	piApproximation.exe	98e1a31334235f70
+61	1045	7600246357554453	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	b908c2486c2b8ec
+68	1263	7600246359743149	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	82ea1524d4cce05f
+41	891	7600288628797196	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
+1220	1544	7600300528331261	piApproximation.exe	e0704bca442adfa8
+54	1219	7600300525222584	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+48	960	7600300820716146	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+962	1342	7600300824308900	piApproximation.exe	e0704bca442adfa8
+46	985	7600302441341750	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+986	1358	7600302444960084	piApproximation.exe	e0704bca442adfa8
+72	1092	7600302656793843	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+1094	1430	7600302660122375	piApproximation.exe	e0704bca442adfa8
+39	1051	7600306207909360	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+1052	1385	7600306211144521	piApproximation.exe	e0704bca442adfa8
+33	926	7600308885472328	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+927	1298	7600308889098323	piApproximation.exe	e0704bca442adfa8
+47	949	7600311194276599	CMakeFiles/piApproximation.dir/main.cpp.obj	81cbbbe38bcf2c0e
+66	978	7600311194567913	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	cc3f494360dddc14
+978	1458	7600311199078148	piApproximation.exe	e0704bca442adfa8

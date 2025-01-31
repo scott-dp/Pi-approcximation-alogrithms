@@ -158,12 +158,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MachinsFormulaPiApproximation.cpp",
+			"path" : "src/MachinsFormulaPiApproximation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "MachinsFormulaPiApproximation.h",
+			"path" : "include/MachinsFormulaPiApproximation.h",
 			"sourceGroupIndex" : 1
 		}
 	],
