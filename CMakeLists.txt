@@ -10,6 +10,8 @@ add_executable(piApproximation main.cpp
         src/PiApproximationAlgorithm.cpp
         include/PiApproximationAlgorithm.h
         src/MonteCarloApproximation.cpp
-        include/MonteCarloApproximation.h)
+        include/MonteCarloApproximation.h
+        src/MachinsFormulaPiApproximation.cpp
+        include/MachinsFormulaPiApproximation.h)
 
 target_link_libraries(piApproximation gmp gmpxx)

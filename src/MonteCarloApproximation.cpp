@@ -1,10 +1,8 @@
 //
 // Created by scott on 29.01.2025.
 //
-#include <cmath>
 #include <atomic>
 #include <thread>
-#include <cstdlib>
 #include <iostream>
 #include "../include/MonteCarloApproximation.h"
 
@@ -14,9 +12,9 @@ MonteCarloApproximation::MonteCarloApproximation(int amountOfBitsPrecision, int 
         PiApproximationAlgorithm(amountOfBitsPrecision) {
     //Set numThreads to the amount of available cores on computer, for instance I have 4
     if (numThreads < 1 || numIterations < 1) {
-        cout << "number of threads and iterations cant be less than 1" << endl;
-        exit(0);
+        throw invalid_argument("number of threads and iterations cant be less than 1");
     }
+    //TODO change numterations and threads as calculate params
     this->numThreads = numThreads;
     this->numIterations = numIterations;
 }
@@ -41,7 +39,7 @@ void MonteCarloApproximation::calculate() {
             for(int i = 0; i < numIterationsPerThread; ++i) {
                 x = distrib(gen);
                 y = distrib(gen);
-                if ((pow(x, 2) + pow(y, 2)) <= 1) {
+                if ((x*x + y*y) <= 1) {
                     localNumPointsInCircle++;
                 }
             }
