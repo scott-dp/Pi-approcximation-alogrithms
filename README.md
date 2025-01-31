@@ -12,5 +12,7 @@ To use the gmp library download the gmp files using https://www.msys2.org/ and u
 ![image](https://github.com/user-attachments/assets/17842720-39b5-4188-ae9e-e0121cbe2cd7)
 
 <h3>Eulers arctan approximation used in machins formula:</h3>
-![image](https://github.com/user-attachments/assets/824e676d-5800-49e2-80bc-b88abc5ab1ec)
+![image](https://github.com/user-attachments/assets/4f7bbaca-7a23-4530-9509-b84cbed4b3a3)
+
+
 
