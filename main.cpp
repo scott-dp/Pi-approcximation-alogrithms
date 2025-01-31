@@ -4,22 +4,22 @@
 #include <iostream>
 
 using namespace std;
-void testMonteCarloApproximation();
-void testMachinsFormulaApproximation();
+void testMonteCarloApproximation(int amountBitsPrecision, int iterations);
+void testMachinsFormulaApproximation(int amountBitsPrecision, int iterations);
 
 int main() {
-    testMonteCarloApproximation();
-    testMachinsFormulaApproximation();
+    testMonteCarloApproximation(200, 1000000);
+    testMachinsFormulaApproximation(10000, 1000);
     return 0;
 }
 
-void testMonteCarloApproximation() {
+void testMonteCarloApproximation(int amountBitsPrecision, int iterations) {
     //Run monte carlo with 10 million iterations
     //2000 bits of precision would be about 600 decimals in base10
-    MonteCarloApproximation monteCarloPiApproximator(2000);
+    MonteCarloApproximation monteCarloPiApproximator(amountBitsPrecision);
     auto start = chrono::high_resolution_clock::now();
 
-    monteCarloPiApproximator.calculate(1000000, 4);
+    monteCarloPiApproximator.calculate(iterations, 4);
     auto end = chrono::high_resolution_clock::now();
 
     // Calculate the duration
@@ -29,11 +29,11 @@ void testMonteCarloApproximation() {
     cout << "Monte carlo amount of correct digits: " << monteCarloPiApproximator.findAmountCorrectDigitsOfPi() <<endl;
 }
 
-void testMachinsFormulaApproximation() {
+void testMachinsFormulaApproximation(int amountBitsPrecision, int iterations) {
     //With 100 000 bits of precision and 10 000 iterations i got 20k correct digits of pi with this fomrula
-    MachinsFormulaPiApproximation machinsFormulaPiApproximator(1000);
+    MachinsFormulaPiApproximation machinsFormulaPiApproximator(amountBitsPrecision);
     auto start = chrono::high_resolution_clock::now();
-    machinsFormulaPiApproximator.calculate(100);
+    machinsFormulaPiApproximator.calculate(iterations);
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> duration = end - start;
     cout << "Execution time machins formula: " << duration.count() << " seconds.\n";
