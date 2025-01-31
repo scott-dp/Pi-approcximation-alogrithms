@@ -19,7 +19,7 @@ void testMonteCarloApproximation() {
     MonteCarloApproximation monteCarloPiApproximator(2000);
     auto start = chrono::high_resolution_clock::now();
 
-    monteCarloPiApproximator.calculate(10000000, 4);
+    monteCarloPiApproximator.calculate(1000000, 4);
     auto end = chrono::high_resolution_clock::now();
 
     // Calculate the duration
@@ -30,9 +30,10 @@ void testMonteCarloApproximation() {
 }
 
 void testMachinsFormulaApproximation() {
-    MachinsFormulaPiApproximation machinsFormulaPiApproximator(2000);
+    //With 100 000 bits of precision and 10 000 iterations i got 20k correct digits of pi with this fomrula
+    MachinsFormulaPiApproximation machinsFormulaPiApproximator(1000);
     auto start = chrono::high_resolution_clock::now();
-    machinsFormulaPiApproximator.calculate(10);
+    machinsFormulaPiApproximator.calculate(100);
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> duration = end - start;
     cout << "Execution time machins formula: " << duration.count() << " seconds.\n";

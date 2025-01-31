@@ -13,7 +13,7 @@ MachinsFormulaPiApproximation::MachinsFormulaPiApproximation(int amountOfBitsPre
 }
 
 void MachinsFormulaPiApproximation::calculate(int numIterations) {
-    mpf_set_default_prec(500);
+    //mpf_set_default_prec(500);
     vector<thread> workers;
     mpf_t result, number1, number5, number239, number4, firstFraction, secondFraction, firstArctanApproximation, secondArctanApproximation;
     mpf_init(result);
@@ -54,7 +54,7 @@ void MachinsFormulaPiApproximation::calculate(int numIterations) {
 }
 
 void MachinsFormulaPiApproximation::eulersArctanApproximation(mpf_t &x, int numIterations, mpf_t &result) {
-    mpf_set_default_prec(500);
+    //mpf_set_default_prec(500);
     mpf_t estimate, temp, xSquared;
     mpf_init(estimate);
     mpf_init(temp);

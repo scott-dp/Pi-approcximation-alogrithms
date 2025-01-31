@@ -15,6 +15,7 @@ public:
     ~PiApproximationAlgorithm();
     void setPiApproximated(mpf_t pi);
     int findAmountCorrectDigitsOfPi();
+    void readPiFromFile();
 private:
     string piCorrect;
     mpf_t piApproximated{};
