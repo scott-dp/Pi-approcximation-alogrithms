@@ -10,8 +10,8 @@
 
 class MonteCarloApproximation: public PiApproximationAlgorithm {
 public:
-    explicit MonteCarloApproximation(int amountOfBitsPrecision, int numIterations, int numThreads);
-    void calculate();
+    explicit MonteCarloApproximation(int amountOfBitsPrecision);
+    void calculate(int numIterations, int numThreads);
 private:
     int numIterations;
     int numThreads;

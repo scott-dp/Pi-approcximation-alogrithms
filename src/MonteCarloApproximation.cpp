@@ -8,18 +8,11 @@
 
 using namespace std;
 
-MonteCarloApproximation::MonteCarloApproximation(int amountOfBitsPrecision, int numIterations, int numThreads) :
+MonteCarloApproximation::MonteCarloApproximation(int amountOfBitsPrecision) :
         PiApproximationAlgorithm(amountOfBitsPrecision) {
-    //Set numThreads to the amount of available cores on computer, for instance I have 4
-    if (numThreads < 1 || numIterations < 1) {
-        throw invalid_argument("number of threads and iterations cant be less than 1");
-    }
-    //TODO change numterations and threads as calculate params
-    this->numThreads = numThreads;
-    this->numIterations = numIterations;
 }
 
-void MonteCarloApproximation::calculate() {
+void MonteCarloApproximation::calculate(int numIterations, int numThreads) {
     //The simple but slow monte carlo approach, I try to increase speed by using threads
     vector<thread> workers;
     int numIterationsPerThread = numIterations / numThreads;
@@ -62,5 +55,5 @@ void MonteCarloApproximation::calculate() {
     mpf_set_si(number4, 4);
     mpf_div(fraction, numPointsInsideCircleMpf, iterationsMpf); //Calculate the fraction
     mpf_mul(result, number4, fraction); //Calculate the final result
-    mpf_out_str(stdout, 10, 0, result); //print result in base10
+    setPiApproximated(result);
 }
