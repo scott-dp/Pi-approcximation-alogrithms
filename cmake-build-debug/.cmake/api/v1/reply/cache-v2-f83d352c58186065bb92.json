@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/scott/Documents/annet/piApproximation/cmake-build-debug"
+			"value" : "c:/Users/scott/Documents/annet/Pi-approcximation-alogrithms/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/scott/Documents/annet/piApproximation/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/scott/Documents/annet/Pi-approcximation-alogrithms/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/scott/Documents/annet/piApproximation"
+			"value" : "C:/Users/scott/Documents/annet/Pi-approcximation-alogrithms"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/scott/Documents/annet/piApproximation/cmake-build-debug"
+			"value" : "C:/Users/scott/Documents/annet/Pi-approcximation-alogrithms/cmake-build-debug"
 		},
 		{
 			"name" : "piApproximation_IS_TOP_LEVEL",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/scott/Documents/annet/piApproximation"
+			"value" : "C:/Users/scott/Documents/annet/Pi-approcximation-alogrithms"
 		}
 	],
 	"kind" : "cache",

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/scott/Documents/annet/piApproximation/cmake-build-debug",
-		"source" : "C:/Users/scott/Documents/annet/piApproximation"
+		"build" : "C:/Users/scott/Documents/annet/Pi-approcximation-alogrithms/cmake-build-debug",
+		"source" : "C:/Users/scott/Documents/annet/Pi-approcximation-alogrithms"
 	},
 	"version" : 
 	{

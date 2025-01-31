@@ -23,5 +23,7 @@ int main() {
      */
     MachinsFormulaPiApproximation machinsFormulaPiApproximator(2000);
     machinsFormulaPiApproximator.calculate(10);
+    int digitsSame = machinsFormulaPiApproximator.findAmountCorrectDigitsOfPi();
+    cout << digitsSame << endl;
     return 0;
 }

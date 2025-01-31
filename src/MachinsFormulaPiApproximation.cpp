@@ -50,7 +50,7 @@ void MachinsFormulaPiApproximation::calculate(int numIterations) {
     mpf_sub(result, result, secondArctanApproximation);
     //Final calc
     mpf_mul(result, number4, result);
-    mpf_out_str(stdout, 10, 0, result); //print result in base10
+    setPiApproximated(result);
 }
 
 void MachinsFormulaPiApproximation::eulersArctanApproximation(mpf_t &x, int numIterations, mpf_t &result) {
