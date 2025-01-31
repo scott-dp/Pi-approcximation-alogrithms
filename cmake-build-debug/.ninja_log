@@ -28,3 +28,11 @@
 1002	1275	7600360206814811	piApproximation.exe	e0704bca442adfa8
 46	772	7600360369830735	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	f45818e6a1ee90e4
 773	1058	7600360372531574	piApproximation.exe	e0704bca442adfa8
+55	816	7600367062194087	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	f45818e6a1ee90e4
+34	1139	7600367065638266	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
+70	1496	7600367069107437	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	9182115cefd078d1
+1496	1764	7600367071758859	piApproximation.exe	e0704bca442adfa8
+35	1055	7600371559101177	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
+1057	1480	7600371563218093	piApproximation.exe	e0704bca442adfa8
+25	1072	7600371988160749	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
+1074	1394	7600371991257917	piApproximation.exe	e0704bca442adfa8
