@@ -1,15 +1,6 @@
 # ninja log v5
-15	404	7600382608874189	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	f45818e6a1ee90e4
-17	509	7600382801827428	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	a36ec5a23fd188f1
-21	613	7600386001262715	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
-44	860	7600379937002858	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	9182115cefd078d1
-614	745	7600386002480652	piApproximation.exe	e0704bca442adfa8
-17	546	7600386077504362	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
-547	672	7600386078673646	piApproximation.exe	e0704bca442adfa8
-17	555	7600386187840313	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
-555	679	7600386189019538	piApproximation.exe	e0704bca442adfa8
-16	537	7600386278721780	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
-537	662	7600386279884067	piApproximation.exe	e0704bca442adfa8
 28	462	7600390867918323	CMakeFiles/piApproximation.dir/src/PiApproximationAlgorithm.cpp.obj	f45818e6a1ee90e4
+17	509	7600382801827428	CMakeFiles/piApproximation.dir/src/MachinsFormulaPiApproximation.cpp.obj	a36ec5a23fd188f1
 18	611	7600390869407600	CMakeFiles/piApproximation.dir/main.cpp.obj	8192c0960a1cbd27
+44	860	7600379937002858	CMakeFiles/piApproximation.dir/src/MonteCarloApproximation.cpp.obj	9182115cefd078d1
 611	745	7600390870682934	piApproximation.exe	e0704bca442adfa8
