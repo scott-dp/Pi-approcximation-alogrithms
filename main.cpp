@@ -1,15 +1,18 @@
 #include "include/MonteCarloApproximation.h"
 #include "include/MachinsFormulaPiApproximation.h"
+#include "include/GaussLegendreAlgorithm.h"
 #include <chrono>
 #include <iostream>
 
 using namespace std;
 void testMonteCarloApproximation(int amountBitsPrecision, int iterations);
 void testMachinsFormulaApproximation(int amountBitsPrecision, int iterations);
+void testGaussLegendreApproximation(int amountBitsPrecision, int iterations);
 
 int main() {
-    testMonteCarloApproximation(200, 1000000);
-    testMachinsFormulaApproximation(10000, 1000);
+    //testMonteCarloApproximation(200, 1000000);
+    testMachinsFormulaApproximation(10000, 1700);
+    testGaussLegendreApproximation(10000, 11);
     return 0;
 }
 
@@ -38,4 +41,14 @@ void testMachinsFormulaApproximation(int amountBitsPrecision, int iterations) {
     chrono::duration<double> duration = end - start;
     cout << "Execution time machins formula: " << duration.count() << " seconds.\n";
     cout << "Machins formula amount of correct digits: " << machinsFormulaPiApproximator.findAmountCorrectDigitsOfPi() << endl;
+}
+
+void testGaussLegendreApproximation(int amountBitsPrecision, int iterations) {
+    GaussLegendreAlgorithm gaussLegendreApproximator(amountBitsPrecision);
+    auto start = chrono::high_resolution_clock::now();
+    gaussLegendreApproximator.calculate(iterations);
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration<double> duration = end - start;
+    cout << "Execution time Gauss Legendre method: " << duration.count() << " seconds.\n";
+    cout << "Gauss Legendre method amount of correct digits: " << gaussLegendreApproximator.findAmountCorrectDigitsOfPi() << endl;
 }
