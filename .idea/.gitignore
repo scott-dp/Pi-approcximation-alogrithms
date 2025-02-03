@@ -1,6 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/cmake-build-debug-mingw
+/cmake-build-debug
+/.idea
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
