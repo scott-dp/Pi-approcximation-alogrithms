@@ -14,5 +14,8 @@ To use the gmp library download the gmp files using https://www.msys2.org/ and u
 <h3>Eulers arctan approximation used in machins formula:</h3>
 ![image](https://github.com/user-attachments/assets/4f7bbaca-7a23-4530-9509-b84cbed4b3a3)
 
-
+<h3>Gauss Legendre algorithm</h3>
+![image](https://github.com/user-attachments/assets/0eb9a28c-1e00-4d10-9ded-4ba16dcc4f5b)
+<h4>Square root approximation used for Gauss Legendre</h4>
+![image](https://github.com/user-attachments/assets/5ccd53e1-fa7a-4c50-8a5d-1b91b40c1b4a)
 
